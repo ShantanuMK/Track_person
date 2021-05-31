@@ -9,7 +9,7 @@ so if the detected IP address is in our dictionary, pass dict[ip_address] to say
 
 Following applications can be created on basis of this script:
  
- 1: ring a bell when any new device is connected to your wifi
+ 1: ring a bell when any new device is connected to your wifi (use a set to keep a track of already connected devices ip. if new ip is not in set, ring a bell)
  
  2: having connected to some smart-lights, ac, computer, of the person's bedroom which will be automatically turned-on when that person reaches home.
  
